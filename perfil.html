@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perfil do User</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">✈️ Caroneiro</div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="chat.html">Chat</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="#" id="logout">Sair</a>
+    </nav>
+  </header>
+
+  <main class="perfil">
+    <div class="perfil-header">
+      <img id="fotoPerfil" src="img/free-user-icon-3296-thumb.png" alt="Foto de perfil">
+      <h2 id="nomeUsuario"></h2>
+    </div>
+    <p id="bio"></p>
+
+    <section class="viagens">
+      <h3>Suas viagens</h3>
+      <ul id="listaViagens">
+        <li>Rio de Janeiro - Janeiro/2025</li>
+        <li>Gramado - Março/2025</li>
+      </ul>
+    </section>
+
+    <div class="botoes">
+      <button>Adicionar como amigo</button>
+      <button onclick="window.location='chat.html'">Enviar mensagem</button>
+    </div>
+
+    <section class="avaliacoes">
+      <h3>Avaliações</h3>
+      <p>⭐⭐⭐⭐⭐ "Ótimo companheiro de viagem!"</p>
+    </section>
+  </main>
+
+  <script src="JavaScript/perfil.js"></script>
+</body>
+</html>

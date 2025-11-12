@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chat Automatico</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">✈️ Caroneiro</div>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="perfil.html">Perfil</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="#" id="logout">Sair</a>
+    </nav>
+  </header>
+
+  <main class="chat-container">
+    <aside class="chat-lista">
+      <h3>Conversas</h3>
+      <ul>
+        <li>Maria</li>
+        <li>João</li>
+      </ul>
+    </aside>
+
+    <section class="chat-area">
+      <div id="chatBox" class="chat-box"></div>
+      <div class="input-area">
+        <input type="text" id="msgInput" placeholder="Digite sua mensagem...">
+        <button id="enviarBtn">Enviar</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="JavaScript/chat.js"></script>
+</body>
+</html>
